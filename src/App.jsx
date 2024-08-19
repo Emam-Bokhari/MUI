@@ -1,14 +1,11 @@
 import { Fragment } from "react";
+import TypographyComponent from "./components/TypographyComponent";
 
-export default function App(){
-  const style={
-    fontSize:"30px"
-  }
-  return(
+
+export default function App() {
+  return (
     <Fragment>
-      <div>
-        <p style={style} >lorem</p>
-      </div>
+    <TypographyComponent/>
     </Fragment>
-  )
+  );
 }
