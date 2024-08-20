@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import FormGroupComponent from "./components/FormGroupComponent";
+import SelectComponent from "./components/SelectComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <FormGroupComponent/>
+      <SelectComponent/>
     </Fragment>
   );
 }
