@@ -7,7 +7,7 @@ export default function ButtonComponent() {
   return (
     <Fragment>
       {/* variant */}
-      <Button variant="text">Click Here</Button>
+      <Button variant="text" sx={{color:"#f3971b"}}>Click Here</Button>
 
       <Button variant="contained">Click Here</Button>
 
