@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import SelectComponent from "./components/SelectComponent";
+import Login from "./components/Practice/Login";
 
 export default function App() {
   return (
     <Fragment>
-      <SelectComponent/>
+      <Login/>
     </Fragment>
   );
 }

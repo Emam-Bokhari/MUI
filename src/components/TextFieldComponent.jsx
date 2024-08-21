@@ -1,5 +1,6 @@
 import { Fragment } from "react";
-import { TextField } from "@mui/material";
+import { Button, TextField } from "@mui/material";
+import SendIcon from "@mui/icons-material/Send";
 
 export default function TextFeildComponent() {
   return (
@@ -103,7 +104,37 @@ export default function TextFeildComponent() {
         placeholder="Enter Your Name"
       />
       <br />
-      <TextField variant="filled" type="text" label="Father's Name" margin="normal" focused  placeholder="Enter Your Father's Name" fullWidth  helperText="Enter Your Name Less than 20 Charecters" />
+      <TextField
+        variant="filled"
+        type="text"
+        label="Father's Name"
+        margin="normal"
+        focused
+        placeholder="Enter Your Father's Name"
+        fullWidth
+        helperText="Enter Your Name Less than 20 Charecters"
+      />
+      <br />
+      <br />
+      <br />
+      <TextField
+        variant="outlined"
+        color="secondary"
+        multiline
+        fullWidth
+        rows="6"
+        margin="normal"
+        placeholder="Enter Your Message..."
+      ></TextField>
+      <Button
+        variant="contained"
+        color="secondary"
+        sx={{ height: "44px" }}
+        size="small"
+        endIcon={<SendIcon />}
+      >
+        Send Message
+      </Button>
     </Fragment>
   );
 }
