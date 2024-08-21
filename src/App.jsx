@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import StudentRegistrationForm from "./components/Practice/Day-01/StudentRegistrationForm";
+import RadioButtonComponent from "./components/RadioButtonComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <StudentRegistrationForm/>
+      <RadioButtonComponent/>
     </Fragment>
   );
 }
