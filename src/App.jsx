@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import Login from "./components/Practice/Login";
+import StudentRegistrationForm from "./components/Practice/Day-01/StudentRegistrationForm";
 
 export default function App() {
   return (
     <Fragment>
-      <Login/>
+      <StudentRegistrationForm/>
     </Fragment>
   );
 }
