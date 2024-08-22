@@ -1,10 +1,11 @@
 import { Fragment } from "react";
-import RadioButtonComponent from "./components/RadioButtonComponent";
+import Navbar from "./components/Navbar";
+
 
 export default function App() {
   return (
     <Fragment>
-      <RadioButtonComponent/>
+      <Navbar/>
     </Fragment>
   );
 }
