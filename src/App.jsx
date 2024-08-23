@@ -1,11 +1,10 @@
 import { Fragment } from "react";
-import Navbar from "./components/Navbar";
-
+import ButtonGroupComponent from "./components/ButtonGroupComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <Navbar/>
+      <ButtonGroupComponent/>
     </Fragment>
   );
 }
