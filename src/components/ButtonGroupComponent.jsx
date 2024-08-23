@@ -39,8 +39,8 @@ export default function ButtonGroupComponent() {
         aria-label="Basic button group"
       >
         <Button>One</Button>
-        <Button>Two</Button>
-        <Button>Three</Button>
+        <Button disableElevation >Two</Button>
+        <Button disabled >Three</Button>
       </ButtonGroup>
     
     </Fragment>

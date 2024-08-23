@@ -1,10 +1,13 @@
 import { Fragment } from "react";
-import ButtonGroupComponent from "./components/ButtonGroupComponent";
+import SwitchComponent from "./components/SwitchComponent";
+
 
 export default function App() {
   return (
     <Fragment>
-      <ButtonGroupComponent/>
+      
+      <SwitchComponent />
+      
     </Fragment>
   );
 }
