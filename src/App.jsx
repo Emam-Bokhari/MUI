@@ -1,13 +1,10 @@
 import { Fragment } from "react";
-import SwitchComponent from "./components/SwitchComponent";
-
+import FabComponent from "./components/FabComponent";
 
 export default function App() {
   return (
     <Fragment>
-      
-      <SwitchComponent />
-      
+      <FabComponent />
     </Fragment>
   );
 }
