@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import FabComponent from "./components/FabComponent";
+import ToogleButtonComponent from "./components/ToogleButtonComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <FabComponent />
+      <ToogleButtonComponent />
     </Fragment>
   );
 }
