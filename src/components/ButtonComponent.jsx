@@ -90,7 +90,7 @@ export default function ButtonComponent() {
         Delete
       </Button>
 
-      <Button variant="outlined" size="small" color="success" endIcon={<SendIcon />}>
+      <Button sx={{borderColor:"red",borderRadius:"100px"}} variant="outlined" size="small" color="success" endIcon={<SendIcon />}>
         Send
       </Button>
     </Fragment>
