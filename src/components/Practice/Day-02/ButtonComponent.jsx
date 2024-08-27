@@ -27,6 +27,16 @@ export default function ButtonComponent() {
       <Button color="inherit" variant="contained" >  
         Color 
       </Button>
+{/*       size */}
+      <Button size="small" >
+      Size
+      </Button>
+      <Button size="medium" >
+      Size
+      </Button>
+      <Button size="large" >
+      Size
+      </Button>
     </Fragment>
   );
 }
