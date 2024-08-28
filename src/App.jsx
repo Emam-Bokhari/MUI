@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import FabComponent from "./components/Practice/Day-02/FabComponent";
+import RadioGroupComponent from "./components/Practice/Day-02/RadioGroupComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <FabComponent />
+     <RadioGroupComponent/>
     </Fragment>
   );
 }
