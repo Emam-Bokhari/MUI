@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import CheckboxComponent from "./components/Practice/Day-02/CheckboxComponent";
+import FabComponent from "./components/Practice/Day-02/FabComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <CheckboxComponent/>
+      <FabComponent />
     </Fragment>
   );
 }
