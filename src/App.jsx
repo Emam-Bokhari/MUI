@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ButtonComponent from "./components/Practice/Day-02/ButtonComponent";
+import ButtonGroupComponent from "./components/Practice/Day-02/ButtonGroupComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ButtonComponent />
+      <ButtonGroupComponent/>
     </Fragment>
   );
 }
