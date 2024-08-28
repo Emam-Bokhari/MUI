@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ButtonGroupComponent from "./components/Practice/Day-02/ButtonGroupComponent";
+import CheckboxComponent from "./components/Practice/Day-02/CheckboxComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ButtonGroupComponent/>
+      <CheckboxComponent/>
     </Fragment>
   );
 }
