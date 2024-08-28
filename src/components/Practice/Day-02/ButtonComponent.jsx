@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import { Fragment } from "react";
-import SendIcon from "@mui/icons-material/Send"
+import SendIcon from "@mui/icons-material/Send";
+import DeleteIcon from "@mui/icons-material/Delete";
 
 export default function ButtonComponent() {
   return (
@@ -33,8 +34,19 @@ export default function ButtonComponent() {
       <Button size="medium">Size</Button>
       <Button size="large">Size</Button>
       {/* button with icon */}
-      <Button variant="outlined" endIcon={<SendIcon/>} >
-        Send 
+      <Button variant="outlined" endIcon={<SendIcon />}>
+        Send
+      </Button>
+      <Button variant="contained" startIcon={<DeleteIcon />}>
+        Delete
+      </Button>
+      {/* icon button */}
+      <Button>
+        <DeleteIcon/>
+      </Button>
+      {/* disabled */}
+      <Button variant="contained" disabled >
+        Disabled 
       </Button>
     </Fragment>
   );
