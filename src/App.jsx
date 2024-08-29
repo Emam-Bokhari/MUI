@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import SwitchComponent from "./components/Practice/Day-02/SwitchComponent";
+import TextFeildComponent from "./components/Practice/Day-02/TextFeildComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <SwitchComponent />
+      <TextFeildComponent />
     </Fragment>
   );
 }
