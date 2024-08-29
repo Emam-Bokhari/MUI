@@ -1,5 +1,7 @@
 import { Divider, ToggleButton, ToggleButtonGroup } from "@mui/material";
 import { Fragment, useState } from "react";
+import FormatBoldIcon from "@mui/icons-material/FormatBold";
+import FormatItalicIcon from "@mui/icons-material/FormatItalic";
 
 export default function ToggleButtonComponent() {
   const [select, setSelect] = useState("");
@@ -19,8 +21,7 @@ export default function ToggleButtonComponent() {
     const newSelect = event.target.value;
     setSelectTwo(newSelect);
   }
-  function handleChangeThree(event) {
-    const newSelect = event.target.value;
+  function handleChangeThree(event, newSelect) {
     setSelectThree(newSelect);
   }
   function handleChangeFour(event) {
@@ -49,10 +50,24 @@ export default function ToggleButtonComponent() {
       </ToggleButtonGroup>
       <Divider sx={{ my: 2 }} />
       {/* multi selection */}
-      <ToggleButtonGroup value={selectThree} onChange={handleChangeThree}>
-        <ToggleButton value="Web">Web</ToggleButton>
-        <ToggleButton value="App">App</ToggleButton>
-        <ToggleButton value="ios">ios</ToggleButton>
+      <ToggleButtonGroup
+        value={selectThree}
+        onChange={handleChangeThree}
+        aria-label="text formatting"
+      >
+        <ToggleButton value="bold" aria-label="bold">
+          <FormatBoldIcon />
+        </ToggleButton>
+        <ToggleButton value="italic" aria-label="italic">
+          <FormatItalicIcon />
+        </ToggleButton>
+        <ToggleButton value="underlined" aria-label="underlined">
+          <FormatBoldIcon />
+        </ToggleButton>
+        <ToggleButton value="color" aria-label="color" disabled>
+          <FormatItalicIcon />
+          <FormatItalicIcon />
+        </ToggleButton>
       </ToggleButtonGroup>
       <Divider sx={{ my: 2 }} />
       {/* vertical,size */}
