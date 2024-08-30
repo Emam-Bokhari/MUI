@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ToggleButtonComponent from "./components/Practice/Day-02/ToggleButtonComponent";
+import AvatarComponent from "./components/DataDisplay/AvatarComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ToggleButtonComponent />
+      <AvatarComponent />
     </Fragment>
   );
 }
