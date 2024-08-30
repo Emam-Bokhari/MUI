@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import BadgeComponent from "./components/DataDisplay/BadgeComponent";
+import ChipComponent from "./components/DataDisplay/ChipComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <BadgeComponent />
+      <ChipComponent/>
     </Fragment>
   );
 }
