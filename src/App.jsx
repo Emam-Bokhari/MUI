@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import AvatarComponent from "./components/DataDisplay/AvatarComponent";
+import BadgeComponent from "./components/DataDisplay/BadgeComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <AvatarComponent />
+      <BadgeComponent />
     </Fragment>
   );
 }
