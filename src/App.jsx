@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ChipComponent from "./components/DataDisplay/ChipComponent";
+import TooltipComponent from "./components/DataDisplay/TooltipComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ChipComponent/>
+      <TooltipComponent />
     </Fragment>
   );
 }

@@ -27,7 +27,7 @@ export default function SelectComponent() {
 
         <Box sx={{ marginTop: "40px" }}>
           <FormControl fullWidth color="warning">
-            <InputLabel>Course's</InputLabel>
+            <InputLabel>Courses</InputLabel>
             <Select label="Course's" variant="standard">
               <MenuItem value="html">Html</MenuItem>
               <MenuItem value="css">CSS</MenuItem>
