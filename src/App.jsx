@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import TextFeildComponent from "./components/Practice/Day-03/TextFeildComponent";
+import ButtonGroupComponent from "./components/Practice/Day-03/ButtonGroupComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <TextFeildComponent />
+      <ButtonGroupComponent/>
     </Fragment>
   );
 }
