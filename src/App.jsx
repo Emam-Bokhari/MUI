@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import DividerComponent from "./components/DataDisplay/DividerComponent";
+import ButtonComponent from "./components/Practice/Day-03/ButtonComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <DividerComponent />
+      <ButtonComponent />
     </Fragment>
   );
 }
