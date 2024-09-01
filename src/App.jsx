@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import RadioGroupComponent from "./components/Practice/Day-03/RadioGroupComponent";
+import SelectComponent from "./components/Practice/Day-03/SelectComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <RadioGroupComponent />
+      <SelectComponent />
     </Fragment>
   );
 }
