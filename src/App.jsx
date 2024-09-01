@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import SwitchComponent from "./components/Practice/Day-03/SwitchComponent";
+import CheckboxComponent from "./components/Practice/Day-03/CheckboxComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <SwitchComponent />
+      <CheckboxComponent />
     </Fragment>
   );
 }
