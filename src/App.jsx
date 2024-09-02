@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import DividerComponent from "./components/Practice/Day-03/DividerComponent";
+import AvatarComponent from "./components/Practice/Day-03/AvatarComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <DividerComponent />
+      <AvatarComponent/>
     </Fragment>
   );
 }
