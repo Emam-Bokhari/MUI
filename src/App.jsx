@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import SelectComponent from "./components/Practice/Day-03/SelectComponent";
+import TypographyComponent from "./components/Practice/Day-03/TypographyComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <SelectComponent />
+      <TypographyComponent />
     </Fragment>
   );
 }

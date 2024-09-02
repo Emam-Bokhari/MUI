@@ -1,4 +1,4 @@
-import { FormControl, InputLabel, Menu, MenuItem, Select } from "@mui/material";
+import { FormControl, InputLabel,  MenuItem, Select } from "@mui/material";
 import { Fragment } from "react";
 
 export default function SelectComponent() {
