@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import TypographyComponent from "./components/Practice/Day-03/TypographyComponent";
+import DividerComponent from "./components/Practice/Day-03/DividerComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <TypographyComponent />
+      <DividerComponent />
     </Fragment>
   );
 }
