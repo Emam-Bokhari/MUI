@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ChipComponent from "./components/Practice/Day-03/ChipComponent";
+import TooltipComponent from "./components/Practice/Day-03/TooltipComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ChipComponent />
+          <TooltipComponent/>      
     </Fragment>
   );
 }

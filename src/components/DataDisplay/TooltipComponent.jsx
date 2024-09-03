@@ -23,13 +23,16 @@ export default function TooltipComponent() {
         </Tooltip>
       </Box>
       <Box>
+        {/* disabled */}
         <Tooltip title="Disabled tooltip"  >
             <Button disabled >
                 Disabled 
             </Button>
         </Tooltip>
       </Box>
+      {/* color */}
       <Tooltip color="error" title="Color" >
+        {/* size */}
         <Button size="small" >
             Color 
         </Button>
