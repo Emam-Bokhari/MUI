@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ToogleButtonComponent from "./components/Practice/Day-03/ToogleButtonComponent";
+import AlertComponent from "./components/Feddback/AlertComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ToogleButtonComponent />
+      <AlertComponent />
     </Fragment>
   );
 }
