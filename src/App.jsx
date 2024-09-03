@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import AlertComponent from "./components/Feddback/AlertComponent";
+import CirculerProgress from "./components/Feddback/CirculerProgress";
 
 export default function App() {
   return (
     <Fragment>
-      <AlertComponent />
+      <CirculerProgress />
     </Fragment>
   );
 }
