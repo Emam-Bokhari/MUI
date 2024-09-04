@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import SkeletonComponent from "./components/Feddback/SkeletonComponent";
+import AccordianComponent from "./components/surfaces/AccordianComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <SkeletonComponent />
+      <AccordianComponent />
     </Fragment>
   );
 }
