@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import AccordianComponent from "./components/surfaces/AccordianComponent";
+import AppbarComponent from "./components/surfaces/AppbarComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <AccordianComponent />
+      <AppbarComponent />
     </Fragment>
   );
 }
