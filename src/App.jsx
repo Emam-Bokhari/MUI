@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import CirculerProgress from "./components/Feddback/CirculerProgress";
+import SkeletonComponent from "./components/Feddback/SkeletonComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <CirculerProgress />
+      <SkeletonComponent />
     </Fragment>
   );
 }
