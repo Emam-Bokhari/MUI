@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import AppbarComponent from "./components/surfaces/AppbarComponent";
+import CardComponent from "./components/surfaces/CardComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <AppbarComponent />
+      <CardComponent />
     </Fragment>
   );
 }
