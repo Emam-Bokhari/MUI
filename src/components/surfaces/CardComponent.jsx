@@ -14,7 +14,7 @@ export default function CardComponent() {
   return (
     <Fragment>
       {/* basic card */}
-      <Card variant="outlined" sx={{ maxWidth: 275 }}>
+      <Card  variant="outlined" sx={{ maxWidth: 275 }}>
         <CardContent>
           <Typography
             gutterBottom

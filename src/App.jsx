@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import CardComponent from "./components/surfaces/CardComponent";
+import PaperComponent from "./components/surfaces/PaperComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <CardComponent />
+      <PaperComponent />
     </Fragment>
   );
 }
