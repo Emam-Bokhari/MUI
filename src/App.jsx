@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import PaperComponent from "./components/surfaces/PaperComponent";
+import BreadcrumbsComponent from "./components/Navigation/BreadcrumbsComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <PaperComponent />
+      <BreadcrumbsComponent />
     </Fragment>
   );
 }
