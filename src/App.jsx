@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import BreadcrumbsComponent from "./components/Navigation/BreadcrumbsComponent";
+import LinkComponent from "./components/Navigation/LinkComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <BreadcrumbsComponent />
+      <LinkComponent />
     </Fragment>
   );
 }
