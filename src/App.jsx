@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import LinkComponent from "./components/Navigation/LinkComponent";
+import BasicPaginationComponent from "./components/Navigation/BasicPaginationComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <LinkComponent />
+      <BasicPaginationComponent />
     </Fragment>
   );
 }

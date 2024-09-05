@@ -26,7 +26,7 @@ export default function LinkComponent() {
         variant="body2"
         onClick={(event) => {
           event.preventDefault();
-          window.location.href="https://google.com"
+          window.location.href = "https://google.com";
         }}
       >
         Button Link
