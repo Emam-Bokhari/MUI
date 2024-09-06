@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import BasicPaginationComponent from "./components/Navigation/BasicPaginationComponent";
+import BoxComponent from "./components/Layout/BoxComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <BasicPaginationComponent />
+      <BoxComponent />
     </Fragment>
   );
 }
