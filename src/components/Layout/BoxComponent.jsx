@@ -14,5 +14,4 @@ export default function BoxComponent() {
         exercitationem voluptatem consequuntur?
       </Box>
     </Fragment>
-  );
-}
+  );}

@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import BoxComponent from "./components/Layout/BoxComponent";
+import ContainerComponent from "./components/Layout/ContainerComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <BoxComponent />
+      <ContainerComponent />
     </Fragment>
   );
 }
