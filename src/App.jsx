@@ -1,10 +1,10 @@
 import { Fragment } from "react";
-import ContainerComponent from "./components/Layout/ContainerComponent";
+import GridComponent from "./components/Layout/GridComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <ContainerComponent />
+      <GridComponent />
     </Fragment>
   );
 }
