@@ -1,12 +1,12 @@
 import { Fragment } from "react";
-import GridComponent from "./components/Layout/GridComponent";
 import { CssBaseline } from "@mui/material";
+import StackComponent from "./components/Layout/StackComponent";
 
 export default function App() {
   return (
     <Fragment>
-      <CssBaseline/>
-      <GridComponent />
+      <CssBaseline />
+      <StackComponent />
     </Fragment>
   );
 }
