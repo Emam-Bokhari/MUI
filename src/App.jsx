@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import ImageListComponent from "./components/Layout/ImageListComponent";
+import ButtonComponent from "./components/Practice/Day-04/ButtonComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <ImageListComponent />
+      <ButtonComponent />
     </Fragment>
   );
 }
