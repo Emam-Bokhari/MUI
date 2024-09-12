@@ -24,10 +24,12 @@ export default function ButtonComponent() {
       <Button size="medium">Medium</Button>
       <Button size="large">Large</Button>
       {/* icon with button */}
-      <Button variant="outlined" startIcon={<DeleteIcon />}>Delte</Button>
+      <Button variant="outlined" startIcon={<DeleteIcon />}>
+        Delte
+      </Button>
       {/* icon button */}
       <Button>
-        <DeleteIcon/>
+        <DeleteIcon />
       </Button>
     </Fragment>
   );
