@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import AutoCompleteComponent from "./components/Input/AutoCompleteComponent";
+import RatingComponent from "./components/Input/RatingComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <AutoCompleteComponent />
+      <RatingComponent />
     </Fragment>
   );
 }
