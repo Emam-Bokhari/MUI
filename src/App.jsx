@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import ButtonGroupComponent from "./components/Practice/Day-04/ButtonGroupComponent";
+import AutoCompleteComponent from "./components/Input/AutoCompleteComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <ButtonGroupComponent/>
+      <AutoCompleteComponent />
     </Fragment>
   );
 }
