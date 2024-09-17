@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import RatingComponent from "./components/Input/RatingComponent";
+import ListComponent from "./components/DataDisplay/ListComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <RatingComponent />
+      <ListComponent />
     </Fragment>
   );
 }
