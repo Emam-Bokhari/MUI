@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import DialogComponent from "./components/Feddback/DialogComponent";
+import TableComponent from "./components/DataDisplay/TableComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <DialogComponent />
+      <TableComponent />
     </Fragment>
   );
 }
