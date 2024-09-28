@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import TableComponent from "./components/DataDisplay/TableComponent";
+import BackdropComponent from "./components/Feddback/BackdropComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <TableComponent />
+      <BackdropComponent />
     </Fragment>
   );
 }
