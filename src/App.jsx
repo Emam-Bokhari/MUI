@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import TabsComponent from "./components/Navigation/TabsComponent";
+import BottomNavigationComponent from "./components/Navigation/BottomNavigationComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <TabsComponent />
+      <BottomNavigationComponent />
     </Fragment>
   );
 }
