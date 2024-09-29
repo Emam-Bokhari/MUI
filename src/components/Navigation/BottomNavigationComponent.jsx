@@ -8,7 +8,17 @@ export default function BottomNavigationComponent() {
   const [value, setValue] = useState(0);
   return (
     <Fragment>
-        {/* basic bottom navigation */}
+      {/* basic bottom navigation */}
+      <BottomNavigation
+        showLabels
+        value={value}
+        onChange={(event, newValue) => setValue(newValue)}
+      >
+        <BottomNavigationAction icon={<RestoreIcon />} label="Recent" />
+        <BottomNavigationAction icon={<FavoriteIcon />} label="Favorite" />
+        <BottomNavigationAction icon={<LocationOnIcon />} label="Location" />
+      </BottomNavigation>
+      {/* no labels */}
       <BottomNavigation
         value={value}
         onChange={(event, newValue) => setValue(newValue)}
