@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import BottomNavigationComponent from "./components/Navigation/BottomNavigationComponent";
+import SpeeddialComponent from "./components/Navigation/SpeeddialComponent";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <BottomNavigationComponent />
+      <SpeeddialComponent />
     </Fragment>
   );
 }
