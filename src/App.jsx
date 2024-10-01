@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import CustomButton from "./components/customComponent/CustomButton";
+import InputField from "./components/customComponent/InputField";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <CustomButton />
+      <InputField />
     </Fragment>
   );
 }
