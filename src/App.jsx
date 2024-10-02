@@ -1,12 +1,15 @@
 import { Fragment } from "react";
-import { CssBaseline } from "@mui/material";
-import CustomizeColor from "./components/customization/CustomizeColor";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import { theme } from "./theme/theme";
+import ExampleOne from "./components/themeExample/ExampleOne";
 
 export default function App() {
   return (
     <Fragment>
-      <CssBaseline />
-      <CustomizeColor />
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <ExampleOne/>
+      </ThemeProvider>
     </Fragment>
   );
 }
