@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import { CssBaseline } from "@mui/material";
-import InputField from "./components/customComponent/InputField";
+import CustomizeColor from "./components/customization/CustomizeColor";
 
 export default function App() {
   return (
     <Fragment>
       <CssBaseline />
-      <InputField />
+      <CustomizeColor />
     </Fragment>
   );
 }
