@@ -1,17 +1,22 @@
 import { createTheme } from "@mui/material";
+import { pink } from "@mui/material/colors";
 
 // Create the theme
 export const theme = createTheme({
   palette: {
     primary: {
-      main: "#FF014F", 
+      main: "#FF014F",
     },
     success: {
-      main: "#F3971b", 
+      main: "#F3971b",
     },
     textColor: {
       primary: "orange",
-      secondary: "blue",    
+      secondary: "blue",
+      bokhari: "green",
+    },
+    secondary: {
+      main: pink[500],
     },
   },
 });

@@ -15,6 +15,9 @@ export default function ExampleOne() {
       <Typography sx={{ color: "textColor.secondary" }}>
         Custom Text Color
       </Typography>
+      <Typography sx={{ color: "textColor.bokhari" }}>
+        Custom Text Color
+      </Typography>
 
     </Fragment>
   );
