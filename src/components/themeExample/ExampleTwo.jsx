@@ -10,6 +10,10 @@ export default function ExampleTwo() {
         autem ab odio veniam, deleniti, pariatur facilis aperiam earum natus?
         Pariatur, velit?
       </Typography>
+      <Typography sx={{color:"lime.main"}} >
+        Lime Color 
+      </Typography>
+      
     </Fragment>
   );
 }

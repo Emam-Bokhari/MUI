@@ -3,15 +3,18 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { theme } from "./theme/theme";
 import ExampleOne from "./components/themeExample/ExampleOne";
 import ExampleTwo from "./components/themeExample/ExampleTwo";
+import { CacheProvider } from "@emotion/react";
 
 export default function App() {
   return (
     <Fragment>
-      <ThemeProvider theme={theme}>
+     
+     <ThemeProvider theme={theme}>
         <CssBaseline />
         <ExampleOne />
         <ExampleTwo />
       </ThemeProvider>
+    
     </Fragment>
   );
 }
