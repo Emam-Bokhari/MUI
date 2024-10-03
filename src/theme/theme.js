@@ -1,6 +1,7 @@
 import { createTheme } from "@mui/material";
 import { pink, lime } from "@mui/material/colors";
 
+
 // Create the theme
 export const theme = createTheme({
   palette: {
@@ -22,4 +23,13 @@ export const theme = createTheme({
       main: lime[700],
     },
   },
+  typography:{
+    fontFamily:"sans-serif",
+    fontSize:12,
+    button:{
+      fontSize:18,
+      fontFamily:"arial",
+      fontStyle:"italic"
+    }
+  }
 });
