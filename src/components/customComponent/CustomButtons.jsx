@@ -15,7 +15,7 @@ export default function CustomButtons() {
   return (
     <Fragment>
       <Button>Click Here</Button>
-      <Button sx={{ ml: 2,backgroundColor:'orange' }}>Go To Home Page</Button>
+      <Button sx={{ ml: 2, backgroundColor: "indigo" }}>Go To Home Page</Button>
     </Fragment>
   );
 }
